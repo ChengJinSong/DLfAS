@@ -1,0 +1,35 @@
+{
+  "win_prefix": "D:\\",
+  "lin_prefix": "/home/song/Data/",
+  "instance_path": "SAT-INSTANCE",
+  "aslib_path": "ASLIB",
+  "tmp_model_path": "tmp_model",
+  "round_space": [
+    "round",
+    "ceil",
+    "floor"
+  ],
+  "round_method": "round",
+  "image_size": [
+    128,
+    128
+  ],
+  "interpolation_space": [
+    "NEAREST",
+    "LANCZOS",
+    "BILINEAR",
+    "BICUBIC"
+  ],
+  "interpolation_method": "NEAREST",
+  "learning_rate": 0.3,
+  "lr_step": 0.003,
+  "momentum": 0.9,
+  "mo_step": 0.001,
+  "total_steps": 2700,
+  "number_batch_of_epoch": 9,
+  "mini_batch_of_training": 64,
+  "label_dim": 31,
+  "misclas_threshold": [
+    0.5
+  ]
+}

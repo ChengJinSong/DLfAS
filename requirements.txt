@@ -1,0 +1,6 @@
+scipy==1.1.0
+numpy==1.14.3
+scikit-learn==0.19.1
+Pillow==3.1.2
+tensorflow-gpu==1.8.0
+liac-arff==2.2.1
