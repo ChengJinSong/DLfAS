@@ -2,3 +2,9 @@ __pycache__
 .idea
 .vscode
 *test*
+# tex compile file
+tex/*
+!tex/*.tex
+!tex/*.bib
+!tex/assets
+tex/main.tex
